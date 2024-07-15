@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>쇼핑몰 검색창</title>
+<link rel="icon" href="./favicon_1.ico"/>
+
+<style>
+  /* CSS 코드 */
+  .search-container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px; /* 검색창의 최대 너비 */
+  }
+
+  .search-input {
+    width: 100%;
+    padding: 12px 20px; /* 내부 여백 */
+    font-size: 16px;
+    border: 2px solid #4682b4; /* 테두리 색상 */
+    border-radius: 25px; /* 둥근 테두리 모양 */
+    outline: none; /* 포커스시 테두리 삭제 */
+    box-sizing: border-box; /* 패딩을 포함한 전체 너비 설정 */
+  }
+
+  .search-input:focus {
+    border-color: #002147; /* 포커스시 테두리 색상 변경 */
+  }
+
+  .search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 12px 20px;
+    background-color: #4682b4; /* 배경색 */
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-top-right-radius: 25px; /* 버튼의 오른쪽 둥근 테두리 */
+    border-bottom-right-radius: 25px; /* 버튼의 오른쪽 둥근 테두리 */
+  }
+
+  /* 반응형 디자인을 위한 미디어 쿼리 예시 */
+  @media screen and (max-width: 600px) {
+    .search-container {
+        width: 90%; /* 작은 화면에서 검색창 너비 조정 */
+    }
+  }
+
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .product-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .product-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .product-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .product-card p {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 15px;
+  }
+
+  .product-card .btn {
+    display: inline-block;
+    background-color: #357abd;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .product-card .btn:hover {
+    background-color: #245e8a;
+  }
+</style>
+
+
+<script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<!-- <scrip src="https://unpkg.com/hangul-js" type="text/javascript"></script> -->
+<script src="https://unpkg.com/hangul-js/hangul.js"></script>
+
+</head>
+<body>
+
+
+
+
+
+
+  
+
+</body>
+</html>
